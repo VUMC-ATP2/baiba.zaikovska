@@ -46,8 +46,5 @@ public class FirstClass {
         int numberOfChildren = 18;
         int pairsOfShoesPerChild = 3;
         System.out.println("Total number of shoes in the kindergatden: " + numberOfChildren*pairsOfShoesPerChild);
-
-
-
     }
 }
