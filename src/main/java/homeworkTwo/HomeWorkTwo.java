@@ -72,7 +72,7 @@ public class HomeWorkTwo {
                 System.out.println("Number is incorrect!");
         }
         //3. uzdevums
-        Scanner scanner = new Scanner(System.in);
+
         System.out.println("Please enter the first number: ");
         int inputResult1 = scanner.nextInt();
         System.out.println("Please enter the second number: ");
@@ -103,7 +103,7 @@ public class HomeWorkTwo {
             default:
                 System.out.println("Please use your best judgement!");
         }
-        String colour = "Green";
+
         if (colour.equals("Red")) {
             System.out.println("Stop!");
         } else if (colour.equals("Yellow")) {
